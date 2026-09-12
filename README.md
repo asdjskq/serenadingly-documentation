@@ -73,3 +73,4 @@ AT anti-debug	jz→jmp patch, NtGlobalFlag zeroed
 AT thread detection	AT workers suspended from kernel before they can scan
 Magic/constants in binary	Compile-time XOR obfuscation — no literals in .data/.rdata
 Syscall index hardcoded	Mapper resolves real SSDT index at runtime and patches before entry
+Just to point out this has been undetected for 58 days I have got champ with this and not banned yet so that should so something.
